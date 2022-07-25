@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dizitalpods - Job Posting Page</title>
+    <link rel="icon" type="image/x-icon" href="../images/tab.png">
+    <title>Enlist - Refferal</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -45,7 +46,7 @@
 
             <!-- Nav Items -->
             <li class="nav-item active">
-                <a class="nav-link" href="">
+                <a class="nav-link" href="../pages/overview.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Overview</span></a>
             </li>
@@ -77,7 +78,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="../index.html">
                     <i class="fas fa-mail-bulk"></i>
-                    <span>Job Posting</span></a>
+                    <span>Job Indent</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./candidates.html">
@@ -87,7 +88,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="./Referralpage.html">
                     <i class="fas fa-external-link-alt"></i>
-                    <span>Referrels</span></a>
+                    <span>Referrals</span></a>
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider">
@@ -100,19 +101,19 @@
             <!-- Nav Item -->
             <!-- Nav Item -->
             <li class="nav-item">
-                <a class="nav-link" href="">
+                <a class="nav-link" href="../pages/employee.html">
                     <i class="fas fa-users"></i>
                     <span>Employee</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="">
                     <i class="fas fa-project-diagram"></i>
-                    <span>Projects</span></a>
+                    <span>Roles</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="">
+                <a class="nav-link" href="../pages/client.html">
                     <i class="far fa-clock"></i>
-                    <span>Timesheet</span></a>
+                    <span>Clients</span></a>
             </li>
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -228,7 +229,7 @@
                         <!-- Nav Item - User Information -->
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Suresh R</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">User Name</span>
                                 <img class="img-profile rounded-circle" src="../images/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
@@ -263,72 +264,76 @@
                             <div class="container">
                                 <div class="row my-3">
                                     <div class="col-6 bg-body rounded-3 shadow ">
+
                                         <div class="referral-box">
                                             <h5 class="text-dark fw-bold my-3">Referral Box</h5>
-                                            <div class="row">
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="referral-name" class="text-dark fw-bold">Full Name</label>
-                                                    <input type="text" class="form-control w-75 bg-gray-200 border-0 text-dark" id="referral-name" placeholder="Enter name" required="">
-                                                    <div class="invalid-feedback">
-                                                        Valid Name is required.
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="referral-name" class="text-dark fw-bold">Full Name</label>
+                                                        <input type="text" class="form-control w-75 bg-gray-200 border-0 text-dark" id="referral-name" placeholder="Enter name" required="">
+                                                        <div class="invalid-feedback">
+                                                            Valid Name is required.
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="referral-experience" class="text-dark fw-bold">Experience</label>
+                                                        <input type="text" class="form-control w-75 bg-gray-200 border-0" id="referral-experience" placeholder="Enter experience" required="">
+                                                        <div class="invalid-feedback">
+                                                            Valid Experience is required.
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="referral-experience" class="text-dark fw-bold">Experience</label>
-                                                    <input type="text" class="form-control w-75 bg-gray-200 border-0" id="referral-experience" placeholder="Enter experience" required="">
-                                                    <div class="invalid-feedback">
-                                                        Valid Experience is required.
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="referral-age" class="text-dark fw-bold">Age</label>
+                                                        <input type="text" class="form-control w-75 bg-gray-200 border-0" id="referral-age" placeholder="Enter age" required="">
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="referral-age" class="text-dark fw-bold">Age</label>
-                                                    <input type="text" class="form-control w-75 bg-gray-200 border-0" id="referral-age" placeholder="Enter age" required="">
-                                                </div>
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="referral-jobpost" class="text-dark fw-bold">Job Post</label>
-                                                    <select class="form-select w-75 bg-gray-200 border-0" aria-label="Default select example">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="referral-jobpost" class="text-dark fw-bold">Job Post</label>
+                                                        <select class="form-select w-75 bg-gray-200 border-0" aria-label="Default select example">
                                                         <option selected>Select</option>
                                                         <option value="1">Java Fullstack-Adobe</option>
                                                         <option value="2">Java Fullstack-Adobe</option>
                                                         <option value="3">Java Fullstack-Adobe</option>
                                                       </select>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="referral-referredby" class="text-dark fw-bold">Referred By</label>
-                                                    <input type="text" class="form-control w-75 bg-gray-200 border-0" id="referral-referredby" placeholder="Enter your name" required="">
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="referral-referredby" class="text-dark fw-bold">Referred By</label>
+                                                        <input type="text" class="form-control w-75 bg-gray-200 border-0" id="referral-referredby" placeholder="Enter your name" required="">
+                                                    </div>
+                                                    <div class="col-md-6 mb-3">
+                                                        <label for="referral-linkedin" class="text-dark fw-bold">LinkedIn Url</label>
+                                                        <input type="text" class="form-control w-75 bg-gray-200 border-0" id="referral-linkedin" placeholder="Enter url" required="">
+                                                    </div>
                                                 </div>
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="referral-linkedin" class="text-dark fw-bold">LinkedIn Url</label>
-                                                    <input type="text" class="form-control w-75 bg-gray-200 border-0" id="referral-linkedin" placeholder="Enter url" required="">
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6 mb-3">
-                                                    <label class="text-dark fw-bold">Resume</label>
-                                                    <div class="drop-zone text-center">
-                                                        <p class="my-lg-3">Drop file here or click to upload</p>
-                                                        <p class="my-lg-3">Or</p>
-                                                        <!-- <input type="file" name="myFile" class="drop-zone__input"> -->
-                                                        <div class="upload-button">
-                                                            <div class="file btn btn-lg btn-primary  w-70 my-lg-3">
-                                                                Browse file
-                                                                <input type="file" name="file" />
+                                                <div class="row">
+                                                    <div class="col-md-6 mb-3">
+                                                        <label class="text-dark fw-bold">Resume</label>
+                                                        <div class="drop-zone">
+                                                            <!-- <p class="my-lg-3">Drop file here or click to upload</p>
+                                                            <p class="my-lg-3">Or</p> -->
+                                                            <!-- <input type="file" name="myFile" class="drop-zone__input"> -->
+                                                            <div class="upload-button">
+                                                                <div class="file btn btn-lg btn-primary  w-70 my-lg-1">
+                                                                    Browse file
+                                                                    <input type="file" name="file" />
+                                                                </div>
                                                             </div>
                                                         </div>
+                                                        <div class="mt-5">
+                                                            <button class="btn btn-primary fw-bold">ADD TO DATABASE</button>
+                                                        </div>
                                                     </div>
-                                                    <div class="mt-5">
-                                                        <button class="btn btn-primary fw-bold">ADD TO DATABASE</button>
+                                                    <div class="col-md-6 mb-3 referral-page-plant">
+                                                        <img src="../images/plant3.png">
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6 mb-3 referral-page-plant">
-                                                    <img src="../images/plant3.png">
-                                                </div>
-                                            </div>
+                                            </form>
                                         </div>
+
                                     </div>
                                     <div class="col-6">
                                         <div class="row bg-body rounded-3 mx-3 pt-3 shadow ">
@@ -469,13 +474,13 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <!-- <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span>Copyright &copy; Dizitalpods 2022</span>
                     </div>
                 </div>
-            </footer>
+            </footer> -->
             <!-- End of Footer -->
 
         </div>
