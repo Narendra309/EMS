@@ -11889,6 +11889,14 @@ input:checked+.slider:before {
     border: 2px dashed;
 } */
 
+.bg-image {
+    background-image: url(../images/bg3.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: fit-content; */
+}
+
 
 /* candidatentry page end */
 
@@ -12100,7 +12108,7 @@ input:checked+.slider:before {
 .calendar-rotate h1 {
     font-weight: bold;
     letter-spacing: 2px;
-    color: black;
+    color: black;   
     font-style: italic;
     padding: 27px 0px;
 }
@@ -12112,6 +12120,113 @@ input:checked+.slider:before {
     font-weight: bold;
     font-size: 13px;
 }
+
+#datepicker1{
+    height: 220px;
+    overflow: auto;
+    display: block !important;
+}
+
+#takenvalue1{
+    font-size: 14px;
+    font-weight: bold;
+}
+/* Calendar Start */
+
+/* .calendar {
+    width: 100%;
+    height: 42vh;
+    background-color: #222227;
+    box-shadow: 0 0.5rem 3rem rgb(0 0 0 / 40%);
+}
+
+.month {
+    width: 100%;
+    height: 50px;
+    background-color: #167e56;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+}
+
+.month i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.month h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    margin: 0;
+}
+
+.month p {
+    margin: 0;
+}
+
+.weekdays {
+    width: 100%;
+    height: 28px;
+    padding: 0 0.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.weekdays div {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    width: calc(19.2rem / 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 50%);
+}
+
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+}
+
+.days div {
+    font-size: 18px;
+    margin: 5px;
+    width: calc(15.2rem / 7);
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0 0.3rem 0.5rem rgb(0 0 0 / 50%);
+    transition: background-color 0.2s;
+}
+
+.days div:hover:not(.today) {
+    background-color: #262626;
+    border: 0.2rem solid #777;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.prev-date,
+.next-date {
+    opacity: 0.5;
+}
+
+.today {
+    background-color: #167e56;
+    border-radius: 25px;
+} */
+
+
+/* Calendar End */
 
 .donut {
     /* (A1) CIRCLE */
@@ -12322,6 +12437,35 @@ input:checked+.slider:before {
 
 /* employee page end */
 
+/* Role page start */
+
+.role-table-content {
+    height: 430px;
+}
+
+.role-table-head thead th {
+    border-bottom: 0;
+}
+
+.role-table-head tr th {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.role-table-body tr td {
+    font-weight: 600;
+    font-size: 14px;
+    color: #5e5a5a;
+}
+/* .rolepage-search{
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    right: 25px;
+    width: 30px;
+} */
+
+/* Role Page End */
 
 /* client page start*/
 
